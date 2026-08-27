@@ -5,10 +5,6 @@ import java.util.Map;
 
 public class UniqueSubstringSolver {
 
-    /*
-     * Time Complexity: O(n)
-     * Extra Space: O(n)
-     */
     public static int longestUniqueSubstring(String value) {
 
         Map<Character, Integer> lastSeen = new HashMap<>();

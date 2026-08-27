@@ -4,10 +4,6 @@ import com.hdfclife.exception.InvalidWindowException;
 
 public class SlidingWindowSolver {
 
-    /*
-     * Time Complexity: O(n)
-     * Extra Space: O(1)
-     */
     public static int maxSumOfSizeK(int[] arr, int k) {
 
         if (k <= 0 || k > arr.length) {

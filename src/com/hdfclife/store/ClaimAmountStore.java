@@ -32,10 +32,6 @@ public class ClaimAmountStore {
         size++;
     }
 
-    /*
-     * Time Complexity: O(n)
-     * Extra Space: O(1)
-     */
     public void insert(int index, int amount) {
         if (index < 0 || index > size) {
             throw new InvalidIndexException("Invalid index: " + index);
@@ -56,10 +52,6 @@ public class ClaimAmountStore {
         size++;
     }
 
-    /*
-     * Time Complexity: O(n)
-     * Extra Space: O(1)
-     */
     public void delete(int index) {
         if (index < 0 || index >= size) {
             throw new InvalidIndexException("Invalid index: " + index);

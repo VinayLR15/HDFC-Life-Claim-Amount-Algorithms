@@ -6,10 +6,6 @@ import java.util.Arrays;
 
 public class PairSumSolver {
 
-    /*
-     * Time Complexity: O(n²)
-     * Extra Space: O(1)
-     */
     public static int[] bruteForce(int[] arr, int target) {
 
         for (int i = 0; i < arr.length - 1; i++) {
@@ -31,10 +27,6 @@ public class PairSumSolver {
         );
     }
 
-    /*
-     * Time Complexity: O(n log n)
-     * Extra Space: O(n) because a copy of the input is sorted.
-     */
     public static int[] twoPointer(int[] arr, int target) {
 
         int[] sorted = Arrays.copyOf(arr, arr.length);

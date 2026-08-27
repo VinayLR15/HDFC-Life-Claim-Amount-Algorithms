@@ -2,10 +2,6 @@ package com.hdfclife.algo;
 
 public class BinarySearcher {
 
-    /*
-     * Time Complexity: O(log n)
-     * Extra Space: O(log n) because of the recursive call stack.
-     */
     public static boolean search(int[] arr, int target) {
 
         return searchRecursive(

@@ -2,10 +2,6 @@ package com.hdfclife.algo;
 
 public class PalindromeChecker {
 
-    /*
-     * Time Complexity: O(d), where d is the number of digits.
-     * Extra Space: O(d) because the digits are stored in an array.
-     */
     public static boolean isPalindrome(int number) {
 
         if (number < 0) {
